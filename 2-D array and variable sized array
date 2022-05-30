@@ -1,0 +1,31 @@
+//	Two dimentional array creation 
+
+//For creation of 2 dimentional array, we must follow the folowing simple test
+//	int x[][]=null;
+//	x = new int [4][3];
+//	
+// 	int [][] x = new int [4][3];
+//
+//	int y[4][2] = {{1,2},{2,3}{3,4}{4,5}}
+//
+//	int z[][] = { {1,2,3}
+//		      {2,3,4}
+//		      {3,4,5}
+//		     };
+
+
+
+
+
+//	Variable sized array
+//	int [][]x = null;
+//		x is a reference variable
+//		refers to an array, where
+//		every element is a ref of One-D array ref   
+
+//	x = new int [4][];
+//	memory allocation to store One-D array
+
+
+//	for(int i=0;i<x.length;i++)
+//		x[i] = new int[i+1];
